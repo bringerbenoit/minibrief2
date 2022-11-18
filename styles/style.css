@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    z-index: 2;
+    position: fixed;
+    padding: 20px;
+    display: flex;
+    width: calc(100vw - 40px);
+    justify-content: space-between;
+    color: white;
+}
+.textlink{
+    color: white;
+    text-decoration: none;
+}
+.header__img3{
+    width: 22px;
+    height: 24px;
+    display: flex;
+    margin-right: 40px;
+}
+.content{
+    z-index: 1;
+}
+.img__title{
+    height: 22px;
+    width: 150px;
+}
+.content__img1 .lienbig{
+    background-image: url(../images/poster-produit-atlas-bureau.webp) ;
+    display: flex;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.content__img2{
+    background-image: url(../images/BANN_ORGANIC_ORDI.webp);
+    display: flex;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.content__img3{
+    background-image: url(../images/BANN_TITAN_2_ORDI.webp);
+    display: flex;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    background-color: #232323;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #fff;
+    display: flex;
+    flex-direction: initial;
+    box-sizing: initial;
+}
+.promo{
+    color: #a4a4a4;
+}
+
+.textlink2{
+    color: #a4a4a4;
+    text-decoration: none;
+}
+.input__mail{
+    width: 252px;
+    height: 24px;
+
+}
+.btn__ok{
+    width: 260px;
+    height: 30px;
+}
+.contact{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: row-reverse;
+    margin-left: 25px;
+    margin-right: 80px;
+
+}
+lu{
+    list-style: none;
+    align-items: flex-start;
+}
+li{
+    font-size: small;
+}
+h2{
+    font-size: medium;
+    margin: 15px;
+}
+/*------PAGE 2-------*/
+.header2{
+    z-index: 2;
+    position: fixed;
+    padding: 20px;
+    display: flex;
+    width: calc(100vw - 40px);
+    justify-content: space-between;
+    color: white;
+    background-color: #a4a4a4;
+}
+.textlink{
+    color: white;
+    text-decoration: none;
+}
+.header__img3{
+    width: 22px;
+    height: 24px;
+    display: flex;
+    margin-right: 40px;
+}
+.tchest__link{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 25%;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.container__cards{
+    display: flex;
+    width: 100%;
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin: 40px;
+}
+.cards{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+.cards__container{
+    width: 306px;
+    height: 466px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards__img{
+    background: url(../images/pack-novembre-2022.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+}
+.cards__img2{
+    background: url(../images/veste-dragonfly.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+}
+.cards__img3{
+    background: url(../images/sweat-pioneer.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+}
+.cards__img4{
+    background: url(../images/bonnet-cassini.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+}
+.cards__img5{
+    background: url(../images/sweat-sat-VI.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+}
+.cards__img6{
+    background: url(../images/pack-stickers-titan.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+}
