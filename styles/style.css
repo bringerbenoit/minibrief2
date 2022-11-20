@@ -137,15 +137,29 @@ h2{
     text-decoration: none;
     color: black;
 }
-.container__cards{
-    display: flex;
+
+
+.cards__row{
+    display: flex;    
     width: 100%;
-    display: grid;
-    grid-gap: 60px;
-    grid-template-columns: 200px 200px 200px 200px;
     margin: 40px;
 }
+
+.cards__column{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width: 900px){
+    .cards__column{
+        flex-direction: row;
+    }
+}
 .cards{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+.cards__title{
     text-decoration: none;
     color: black;
     display: flex;
@@ -157,51 +171,7 @@ h2{
     flex-direction: column;
     align-items: center;
 }
-.cards__img{
-    background: url(../images/pack-novembre-2022.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.cards__container a img{
     width: 100%;
-    height: inherit;
-}
-.cards__img2{
-    background: url(../images/veste-dragonfly.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: inherit;
-}
-.cards__img3{
-    background: url(../images/sweat-pioneer.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: inherit;
-}
-.cards__img4{
-    background: url(../images/bonnet-cassini.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: inherit;
-}
-.cards__img5{
-    background: url(../images/sweat-sat-VI.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: inherit;
-}
-.cards__img6{
-    background: url(../images/pack-stickers-titan.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: inherit;
+    height: auto;
 }
