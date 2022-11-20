@@ -24,10 +24,7 @@ header{
 .content{
     z-index: 1;
 }
-.img__title{
-    height: 22px;
-    width: 150px;
-}
+
 .content__img1 .lienbig{
     background-image: url(../images/poster-produit-atlas-bureau.webp) ;
     display: flex;
